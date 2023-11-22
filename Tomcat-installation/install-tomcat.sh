@@ -13,7 +13,7 @@ sudo yum install java-1.8.0-openjdk-devel -y
 sudo yum install wget unzip -y
 sudo wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.zip
 sudo tar -xvf apache-tomcat-9.0.80.tar.gz
-sudo rm -rf apache-tomcat-9.0.80.tar.gz
+sudo rm -f apache-tomcat-9.0.80.tar.gz
 ### rename tomcat for good naming convention
 sudo mv apache-tomcat-9.0.80 tomcat9
 ### assign executable permissions to the tomcat home directory
